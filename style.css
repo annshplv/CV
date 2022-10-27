@@ -1,9 +1,24 @@
 /* ADD GOOGLE FONTS */
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url(./assets/font/IBMPlexSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url(./assets/font/IBMPlexSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* COMMON SETTINGS */
 body {
     background-color: lightgray;
+    font-family: "IBMPlexSans", sans-serif;
+    font-size: 10px;
+    color: #222222;
 }
 
 a {
