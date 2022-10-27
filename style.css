@@ -1,0 +1,38 @@
+/* ADD GOOGLE FONTS */
+
+
+/* COMMON SETTINGS */
+body {
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+  
+ul,
+ol,
+li {
+    list-style: none;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+[class*="__container"] {
+    max-width: 615px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.main {
+    flex: 1 1 auto;
+}
