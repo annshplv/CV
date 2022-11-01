@@ -57,6 +57,7 @@ html {
 [class*="__container"] {
     max-width: 615px;
     margin: 0px auto;
+    padding: 0 30px 0;
     background-color: #fff;
 }
 
@@ -111,7 +112,7 @@ html {
     opacity: 1;
 }
 
-  /* BLOCK ABOUT */
+/* BLOCK ABOUT */
 
 .about {
     display: flex;
@@ -139,4 +140,52 @@ html {
 .img {
     border-radius: 100%;
     object-fit: cover;
+}
+
+/* MAIN */
+.content {
+    display: flex;
+    gap: 45px;
+
+    margin-top: 35px;
+}
+
+.project__title {
+    display: flex;
+    gap: 3px;
+}
+
+.text-decor {
+    text-decoration: underline;
+}
+
+.content__left,
+.content__right {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.content__projects,
+.content__educations,
+.content__skills,
+.content__languages {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; 
+}
+
+.project,
+.education,
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    margin-left: 10px;
+}
+
+.skillls__items,
+.languages__items {
+    list-style-image: url("./assets/icon/list-point.svg");
 }
