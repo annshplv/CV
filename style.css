@@ -16,12 +16,12 @@
 /* TYPOGRAPHY */
 .h1 {
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 3.3em;
 }
 
 .h2 {
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .h3 {
@@ -123,6 +123,10 @@ html {
     text-decoration: none;
   
     transition: color .1s linear;
+}
+
+.menu {
+    padding: 15px 0 15px;
 }
   
 .menu__item:after{
