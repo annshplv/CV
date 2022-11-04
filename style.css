@@ -167,6 +167,12 @@ html {
     gap: 5px;
 }
 
+.item {
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+
 .about__text {
     display: flex;
     flex-direction: column;
