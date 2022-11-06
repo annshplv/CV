@@ -45,10 +45,19 @@
     color: gray;
 }
 
+.text_scale {
+    transition: 1s;
+}
+.text_scale:hover {
+    transform: scale(1.2);
+    text-align: left;
+}
+
 p,
 li {
     font-weight: 400;
     font-size: 1.2em;
+    line-height: 140%;
 }
 
 /* COMMON SETTINGS */
@@ -90,6 +99,8 @@ html {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+
+    margin: 10px 0;
 }
 
 [class*="__container"] {
